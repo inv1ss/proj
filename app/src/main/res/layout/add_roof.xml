@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Назва" />
+
+    <EditText
+        android:id="@+id/editTextStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Кількість" />
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ціна" />
+
+    <EditText
+        android:id="@+id/editTextArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Характеристики" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Додати" />
+
+</LinearLayout>
